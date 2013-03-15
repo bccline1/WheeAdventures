@@ -1,4 +1,5 @@
-﻿* {
+﻿/*GENERAL STYLES*/
+* {
     border:0;
 }
 
@@ -26,14 +27,12 @@
     background-repeat:repeat-x;
 }
 
-.ui-panel {
-    background-image:none;
-}
-
 .ui-li-heading {
     text-shadow:0px 0px;
 }
 
+
+/* START INDEX PAGE STYLES*/
 /* First breakpoint is 768px. 3 column layout. Tiles 250x250 pixels at the breakpoint. */
 @media all and (min-width: 768px){
     #index .ui-content {
@@ -155,9 +154,9 @@
     }
     /* Images mask the hover bg color so we give desktop users feedback by applying the focus style on hover as well. */
     #index .ui-listview .ui-btn:hover {
-        -moz-box-shadow: 0px 0px 12px #387bbe;
-        -webkit-box-shadow: 0px 0px 12px #387bbe;
-        box-shadow: 0px 0px 12px #387bbe;
+        -moz-box-shadow: 0px 0px 18px #fff;
+        -webkit-box-shadow: 0px 0px 18px #fff;
+        box-shadow: 0px 0px 18px #fff;
     }
     /* Animate focus and hover style, and resizing. */
     #index .ui-listview .ui-btn {
