@@ -33,6 +33,11 @@
 
 
 /* START INDEX PAGE STYLES*/
+#index .ui-li-heading {
+    font-size:18px;
+    margin:1.2em 0;
+}
+
 /* First breakpoint is 768px. 3 column layout. Tiles 250x250 pixels at the breakpoint. */
 @media all and (min-width: 768px){
     #index .ui-content {
